@@ -1,0 +1,45 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+body{
+    margin-bottom:8.3rem;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 8rem;
+    width: 100%;
+    background-color: #333;
+    .adres{
+        padding: 1rem 0 0 1.5rem;
+        color: #999;
+        display: table;
+        height: 4rem;
+        .span{
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+    .copyright{
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .fa-2x{
+        font-size: 1.6rem;
+    }
+    .social{
+        position: absolute;
+        top: 2.2rem;
+        right: 1.5rem;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        .footer-link{
+            margin:0 0.4rem;
+        }
+    }
+}   // .footer sonu
+

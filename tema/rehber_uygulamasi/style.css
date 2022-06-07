@@ -1,0 +1,113 @@
+.kol {
+    background-color: yellow;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.baslik {
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+}
+.baslik:hover {
+    text-decoration: none;
+    color: red;
+}
+.top_baslik{
+    margin-bottom: 12px;
+}
+
+.ekle {
+    float: right;
+    margin-right: 10px;
+}
+
+.ekle button {
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.active_link {
+    color: red;
+}
+
+i {
+    font-size: 28px;
+}
+
+.fa-trash {
+    color: red
+}
+
+
+.fa-edit {
+    color: green
+}
+
+.fa-plus{
+    font-size: 18px;
+    color: blue;
+}
+.fa-minus{
+    font-size: 18px;
+    color: red;
+}
+
+.fa-arrow-left{
+    font-size: 18px;
+}
+.fa-phone{
+    font-size: 18px;
+}
+i:hover {
+    cursor: pointer;
+}
+
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.r-1{
+    right: 24px;
+   align-self: center;
+}
+
+.b-0{
+    bottom: 0;
+}
+
+.dial {
+    position: absolute !important;
+    z-index: 999;
+    top: 40px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    border-collapse: collapse;
+    text-align: center;
+    position: relative;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    color: #000;
+    box-shadow: 0 0 6px #999;
+}
+.dialDigit {
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-color: rgba(255,228,142,1);
+}
+
+.disable-link *{
+    pointer-events: none;
+    color: #999
+}
+
+.telefon_col{
+    min-width: 175px;
+}

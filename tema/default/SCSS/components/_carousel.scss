@@ -1,0 +1,13 @@
+#carouselExampleInterval img,#carouselExampleInterval,.carousel-inner{
+    height: 100vh;
+   }
+   @media only screen and (max-width: 900px) {
+    #carouselExampleInterval img,#carouselExampleInterval,.carousel-inner{
+        height: 80vh;
+       }
+  }
+  @media only screen and (max-width: 540px) {
+    #carouselExampleInterval img,#carouselExampleInterval,.carousel-inner{
+        height: 60vh;
+       }
+  }

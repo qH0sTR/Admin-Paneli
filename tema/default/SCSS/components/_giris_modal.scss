@@ -1,0 +1,19 @@
+#giris .modal-footer i{
+    position: relative;
+    margin: 0 auto auto 0; 
+    width: 100%;
+}
+#giris .modal-footer a{
+    position: absolute;
+    left: 0;
+    top: 0.25rem;
+    float: left;
+    display: inline;
+    text-decoration: underline; 
+    font-size: 0.75rem;
+    &:hover{
+        text-decoration: none;
+        color: #12e;
+        cursor: pointer;
+    }
+}

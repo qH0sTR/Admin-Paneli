@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule ^(iletisim)$               index.php/?do=iletisim
+RewriteRule ^ekip/?([0-9a-zA-Z-_]*)$         ?do=ekip&link=$1 [QSA]
+RewriteRule ^([0-9a-zA-Z-_]+)$         ?do=sayfa&link=$1
+
+
+
+
+
